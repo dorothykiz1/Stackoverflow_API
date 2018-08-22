@@ -2,14 +2,14 @@
 
 This repository contains Stackoverflow_lite source code that enables users to GET,POST and DELETE questions and also be able to POST various answers to a particular Question.
 
-# Built with:
+## Built with:
 
--python 3.6
--flask 1.0.2
--pylint 2.1.1
--autopep8
+- python 3.6
+- flask 1.0.2
+- pylint 2.1.1
+- autopep8
 
-#Dependencies:
+## **Dependencies:**
 - env
 - flask
 
