@@ -13,14 +13,14 @@ This repository contains Stackoverflow_lite source code that enables users to GE
 - env
 - flask
 
-#Install dependencies(run the following commands in your terminal):on windows,
+## **Install dependencies(run the following commands in your terminal):on windows,**
 - virtualenv env
 - env\Scripts\activate
 - pip install flask
 - pip install pylint(linting library to help you)
 - pip install autopep8
 
-#To contribute, run the following commands on windows;
+ ## **To contribute, run the following commands on windows;**
 
 1. *git clone (paste url)*
 2. Run *virtualenv env* to create your virtual environment
