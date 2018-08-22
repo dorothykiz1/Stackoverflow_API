@@ -1,6 +1,12 @@
+import os
 import unittest
-import json
-from api import questions
+from flask import Flask,jsonify
+from api.questions import app
 
 class APITestCase(unittest.TestCase):
 
+
+
+
+if __name__ == '__main__':
+    unittest.main()
