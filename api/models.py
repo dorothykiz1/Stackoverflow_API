@@ -1,18 +1,22 @@
 class Question:
-    def __init__(self, id, topic, question, post_date):
+    questions=[]
+
+    def __init__(self, id, description,topic,post_date):
+        """initialize with id,description,topic,post_date"""
         self.id = id
         self.topic = topic
-        self.question = question
+        self.description = description
         self.post_date = post_date
 
     def post(self):
         pass
 
-    def edit(self):
+    def save(self):
         pass
+    @staticmethod
+    def get_all():
+        return Question.questions
 
-    def delete(self):
-        pass
 
 
 class User(Question):
